@@ -3255,13 +3255,14 @@ input, select, textarea {
 				text-align: right;
 			}
 
-				#wrapper section > header h1, h2, h3, h4, h5, h6, p, a, span {
-					color: #ffffff;
-				}
 
-				.content p {
-	     				color: black;
-				}
+            #wrapper section > header h1, header h2, header h3, header h4, header h5, header h6, header p, header a, header span {
+                color: #ffffff !important;
+            }
+
+            #wrapper section > footer h1, footer h2, footer h3, footer h4, footer h5, footer h6, footer p, footer a, footer span {
+                color: #ffffff !important;
+            }
 
                 #wrapper section > header h2 {
 					margin: 0 0 5rem 0;
